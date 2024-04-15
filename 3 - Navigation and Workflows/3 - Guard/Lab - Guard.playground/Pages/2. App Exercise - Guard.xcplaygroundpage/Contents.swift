@@ -18,9 +18,9 @@ struct Workout {
         guard end - start >= 10 else {
             return nil
         }
-        
         self.startTime = start
         self.endTime = end
+        
     }
 }
 

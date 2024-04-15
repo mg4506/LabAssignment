@@ -8,15 +8,16 @@ class ViewController: UIViewController {
         let sample = "sample"
         print(sample)
         
-        if true {
+//        if false {
             print("Will this line of code ever be reached?")
             someMethod()
-        }
+//        }
         
         
     }
     
     func someMethod() {
+
     }
 
     override func didReceiveMemoryWarning() {
